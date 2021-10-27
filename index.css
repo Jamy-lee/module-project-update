@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  padding: ;
   box-sizing: border-box;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -8,62 +7,90 @@
 #landing {
   display: flex;
   min-height: 100vh;
+  background: rgb(20, 20, 20);
 }
 .landing-left {
   width: 50%;
 }
 .landing-right {
   padding: 50px;
-  background: white;
+  background: rgb(20, 20, 20);
   width: 50%;
   align-content: center;
   padding-top: 200px;
 }
 
 .title {
-  font-size: 50px;
+  font-size: 100px;
   text-align: center;
-  margin-top: 300px;
-  color: white;
 }
-#paragraph {
-  font-family: Arial, Helvetica, sans-serif;
+.paragraph {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 20px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: rgb(90, 88, 88);
   text-align: center;
 }
 h1 {
   text-align: center;
-  font-size: 80px;
+  font-size: 50px;
+  color: #b5838d;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 150px;
 }
 h2 {
   text-align: center;
+  color: rgb(90, 88, 88);
+  font-size: 30px;
 }
+h3 {
+  font-size: 20px;
+  color: #b5838d;
+}
+
 #li {
   text-align: start;
 }
 .button {
-  width: 300px;
+  width: 500px;
   height: 50px;
   display: flex;
   margin-left: 5%;
   margin-right: 5%;
+  align-items: center;
+  color: #b5838d;
+}
+.nav {
+  position: fixed;
+  margin-left: 5px;
+  padding-right: 10px;
+  margin-left: 0;
+  position: right;
+  font-size: 20px;
+  color: white;
+  justify-content: flex-end;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
+  opacity: 0.7;
 }
 
 ul {
-  background: transparent;
-  position: fixed;
-  margin-top: 50px;
-  padding: 10px;
-  width: 100%;
-  height: 20px;
-  margin-left: 0%;
+  background: white;
+  margin-top: 85px;
+  width: 100vw;
+  height: 70px;
   margin-right: 0px;
   position: right;
   font-size: 20px;
   color: white;
   justify-content: flex-end;
   display: flex;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
+  opacity: 0.7;
 }
 .sub-title {
   text-align: center;
@@ -71,37 +98,44 @@ ul {
   color: white;
 }
 
-#Home {
-  height: 100vh;
-  background: grey;
-}
-
 #About {
   height: 100vh;
   background: whitesmoke;
   text-align: center;
+  color: white;
+
+  width: 100vw;
+}
+#Work-Edu {
+  height: 100vh;
+  text-align: left;
+  margin-left: 10px;
+  padding-left: 20px;
+  background: rgb(20, 20, 20);
+  width: 100vw;
 }
 
 #Skills {
   height: 100vh;
-  background: grey;
+  background: whitesmoke;
+  width: 100vw;
 }
 
 #Projects {
   height: 100vh;
+  width: 100vw;
 }
 
 #Testimonials {
   height: 100vh;
-  background: grey;
+  background: rgb(20, 20, 20);
+  width: 100vw;
 }
 
 #Contact {
   height: 100vh;
+  width: 100vw;
 }
-.bg-overlay {
-  background-color: rgba(128, 128, 128, 128, 0.5);
-  position: absolute;
-  height: 100%;
-  width: 100%;
+#li {
+  text-align: start;
 }
